@@ -2,6 +2,8 @@
 
 A simple yet powerful script for streaming video from Raspberry Pi cameras to RTMP servers using libcamera and ffmpeg.
 
+Currently does not provide audio support.
+
 ## Features
 
 - Stream directly to YouTube, Twitch, Facebook Live or any RTMP(S) server
