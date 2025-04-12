@@ -20,6 +20,18 @@ Mainly tested on youtube
 
 ## Installation
 
+Dependencies on Raspberry pi BullsEye:
+```bash
+sudo apt-get update
+sudo apt-get install -y libcamera-apps ffmpeg
+```
+
+Oneliner:
+```bash
+curl -sSL https://raw.githubusercontent.com/mikkelam/libcamera-rtmp/main/libcamera-rtmp.sh -o libcamera-rtmp.sh && chmod +x libcamera-rtmp.sh && ./libcamera-rtmp.sh --help
+```
+
+Normal:
 ```bash
 git clone https://github.com/yourusername/libcamera-rtmp.git
 cd libcamera-rtmp
