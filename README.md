@@ -37,7 +37,7 @@ Normal:
 ```bash
 git clone https://github.com/yourusername/libcamera-rtmp.git
 cd libcamera-rtmp
-chmod +x rtmp.sh
+chmod +x libcamera-rtmp
 ```
 
 ## Usage
@@ -45,13 +45,13 @@ chmod +x rtmp.sh
 Basic usage:
 
 ```bash
-./rtmp.sh --url rtmp://your-streaming-url
+./libcamera-rtmp --url rtmp://your-streaming-url
 ```
 
 With custom settings:
 
 ```bash
-./rtmp.sh --url rtmp://your-streaming-url --width 1280 --height 720 --framerate 30 --bitrate 3000000
+./libcamera-rtmp --url rtmp://your-streaming-url --width 1280 --height 720 --framerate 30 --bitrate 3000000
 ```
 
 ### Options
