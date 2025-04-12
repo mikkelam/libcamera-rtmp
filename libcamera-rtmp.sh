@@ -46,7 +46,7 @@ echo "🔗 Streaming to: $URL"
 echo "🎬 Resolution: ${WIDTH}x${HEIGHT} @ ${FRAMERATE}fps"
 echo "🔍 Verifying camera capabilities..."
 rpicam-vid --list-cameras || exit 1
-ffmpeg --version || exit 1
+ffmpeg -version || exit 1
 echo "🚀 Starting video stream... Press Ctrl+C to stop"
 
 rpicam-vid \
