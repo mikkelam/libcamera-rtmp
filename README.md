@@ -35,7 +35,7 @@ curl -sSL https://raw.githubusercontent.com/mikkelam/libcamera-rtmp/main/libcame
 
 Normal:
 ```bash
-git clone https://github.com/yourusername/libcamera-rtmp.git
+git clone https://github.com/mikkelam/libcamera-rtmp.git
 cd libcamera-rtmp
 chmod +x libcamera-rtmp
 ```
