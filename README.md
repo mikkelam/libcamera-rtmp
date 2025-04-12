@@ -63,6 +63,11 @@ With custom settings:
 --help               📋 Show help message
 ```
 
+## Why not not just use libcamera-vid?
+Youtube requires an audio source. This is a workaround to add a silent audio track automatically.
+
+If you have an audio source, you can use libcamera-vid directly.
+
 ## License
 
 MIT
